@@ -1,4 +1,4 @@
-# Crossbeam Utils
+# Atomic Option Cell
 
 Forked from [crossbeam-utils](https://github.com/crossbeam-rs/crossbeam)'s [`AtomicCell`](https://docs.rs/crossbeam/0.8.1/crossbeam/atomic/struct.AtomicCell.html), this crate provides a tweaked version of that structure called `AtomicOptionCell`, which has been optimized for atomically-sized `Option<NonZero>` types.
 
